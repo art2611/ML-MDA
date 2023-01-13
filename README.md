@@ -1,6 +1,6 @@
 # WACV2023 - Multimodal Person ReID Using ML-MDA 
 Pytorch code for the [Multimodal Data Augmentation for Visual-Infrared Person ReID
-with Corrupted Data](https://arxiv.org/pdf/2211.11925.pdf) paper. The code was developped on [1] code basis.
+with Corrupted Data](https://openaccess.thecvf.com/content/WACV2023W/RWS/html/Josi_Multimodal_Data_Augmentation_for_Visual-Infrared_Person_ReID_With_Corrupted_Data_WACVW_2023_paper.html) paper. The code was developped on [1] code basis.
 
 | Datasets      | Models                                                                     |
 |---------------|----------------------------------------------------------------------------|
