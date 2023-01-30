@@ -19,7 +19,7 @@ Datasets can be directly downloaded and used as ease. The dataset file location 
 
     - A private download link can be requested via sending an email to mangye16@gmail.com. 
   
-- (2) SYSU-MM01 Dataset [3]: The SYSU-MM01 dataset can be downloaded from this [website](http://isee.sysu.edu.cn/project/RGBIRReID.htm).
+- (2) SYSU-MM01 Dataset [3]: Instructions to download the SYSU-MM01 dataset are available [here](https://github.com/wuancong/SYSU-MM01).
 
 - (3) ThermalWORLD Dataset [4]: Only the training part is used in our study as the whole dataset is not available. Repository is available [here](https://drive.google.com/file/d/1XIc_i3mp4xFlDJ_S5WJYMJAHq107irPI/view) and has been obtained from github ThermalGAN [issues](https://github.com/vlkniaz/ThermalGAN/issues/12).
 
