@@ -21,7 +21,9 @@ Datasets can be directly downloaded and used as ease. The dataset file location 
   
 - (2) SYSU-MM01 Dataset [3]: The SYSU-MM01 dataset can be downloaded from this [website](http://isee.sysu.edu.cn/project/RGBIRReID.htm).
 
-- (3) ThermalWORLD Dataset [4]: The ThermalWorld Dataset ReID Split dataset can be downloaded by writing to vl.kniaz@gosniias.ru [website](http://www.zefirus.org/articles/ee9462fb-befd-4679-9c26-acd551db8583/)
+- (3) ThermalWORLD Dataset [4]: Only the training part is used in our study as the whole dataset is not available. Repository is available [here](https://drive.google.com/file/d/1XIc_i3mp4xFlDJ_S5WJYMJAHq107irPI/view) and has been obtained from github ThermalGAN [issues](https://github.com/vlkniaz/ThermalGAN/issues/12).
+
+ThermalWorld Dataset ReID Split can be downloaded by writing to vl.kniaz@gosniias.ru [website](http://www.zefirus.org/articles/ee9462fb-befd-4679-9c26-acd551db8583/)
 
 #### 2. Train
 
