@@ -23,8 +23,6 @@ Datasets can be directly downloaded and used as ease. The dataset file location 
 
 - (3) ThermalWORLD Dataset [4]: Only the training part is used in our study as the whole dataset is not available. Repository is available [here](https://drive.google.com/file/d/1XIc_i3mp4xFlDJ_S5WJYMJAHq107irPI/view) and has been obtained from github ThermalGAN [issues](https://github.com/vlkniaz/ThermalGAN/issues/12).
 
-ThermalWorld Dataset ReID Split can be downloaded by writing to vl.kniaz@gosniias.ru [website](http://www.zefirus.org/articles/ee9462fb-befd-4679-9c26-acd551db8583/)
-
 #### 2. Train
 
 To train our multimodal concatenation model using ML-MDA fold 0 on RegDB dataset, run: 
@@ -81,9 +79,7 @@ python test.py  --dataset=SYSU \
   
   - `--scenario_eval`: Evaluation type, "normal" for clean datasets, "C" for visible modality corrupted only, "C*" for both visible and thermal modalities corrupted. 
 
-To test a model, and select the wanted inference parameters dynamically, run ``` bash test.sh``` and tune the required parameters accordingly.
-
-Trained models can be downloaded for direct inference using the previous file command.
+To test a model, and select the wanted inference parameters dynamically, run ``` bash test.sh``` and tune the required parameters accordingly. The trained models can be directly downloaded from the provided google drive links.
 
 *Results may vary from the paper for evaluation done on corrupted test sets as transformations are randomly applied. 
 
@@ -105,10 +101,11 @@ Trained models can be downloaded for direct inference using the previous file co
 
 If this work helped your research, please kindly cite our paper:
 ```
-@article{josi2022multimodal,
+@inproceedings{josi2023multimodal,
   title={Multimodal Data Augmentation for Visual-Infrared Person ReID with Corrupted Data},
   author={Josi, Arthur and Alehdaghi, Mahdi and Cruz, Rafael MO and Granger, Eric},
-  journal={arXiv preprint arXiv:2211.11925},
-  year={2022}
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={32--41},
+  year={2023}
 }
 ```
