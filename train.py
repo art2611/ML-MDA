@@ -59,7 +59,7 @@ parser.add_argument('--XPATCH', default='False', help='Model trained with : '
                                                     'M-PATCH-SD'
                                                     'M-PATCH-DD')
 parser.add_argument('--Masking', action='store_true',  help='Model trained with masking')
-parser.add_argument('--masking_ratio', default=0.8, type=float,  help='Masking appearance ratio in a pair')
+parser.add_argument('--masking_ratio', default=0.5, type=float,  help='Masking appearance ratio in a pair')
 
 args = parser.parse_args()
 
